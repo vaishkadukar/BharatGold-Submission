@@ -1,0 +1,30 @@
+#my-tooltip-1 {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 1000;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#option0:checked ~ div {
+  --tw-translate-x: 0%;
+}
+
+#option1:checked ~ div {
+  --tw-translate-x: 100%;
+}
+
+#option2:checked ~ div {
+  --tw-translate-x: 200%;
+}
+
+#option3:checked ~ div {
+  --tw-translate-x: 300%;
+}
+
+#option4:checked ~ div {
+  --tw-translate-x: 400%;
+}
