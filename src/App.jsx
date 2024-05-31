@@ -133,6 +133,14 @@ const App = () => {
               )}
           </div>
         ))}
+        <div className="text-center">
+          <button
+            type="submit"
+            className="py-2 px-4 bg-[#112D4E] text-white font-semibold rounded-lg shadow-md hover:bg-[#3F72AF] focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-yellow-200"
+          >
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );
